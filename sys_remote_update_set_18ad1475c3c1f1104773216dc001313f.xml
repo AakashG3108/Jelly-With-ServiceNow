@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-09-03 13:58:09">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Jelly Scripting</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a70892c1c34d31104773216dc0013112</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:08</sys_created_on>
+<sys_id>18ad1475c3c1f1104773216dc001313f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:08</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_ab23ba0dc38d31104773216dc0013172</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My seventh jelly page - with swtich / case&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;j:set var="jvar_name" value="Aakash"&gt;
+	&lt;/j:set&gt;
+
+	&lt;j:switch on="${jvar_name}"&gt;
+		&lt;j:case value="Richa"&gt;
+			Welcome, Richa!
+		&lt;/j:case&gt;
+		&lt;j:case value="Atul"&gt;
+			Welcome, Atul!
+		&lt;/j:case&gt;
+		&lt;j:default&gt;
+			Welcome, ${jvar_name}!
+		&lt;/j:default&gt;
+	&lt;/j:switch&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;switch_case&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 16:56:05&lt;/sys_created_on&gt;&lt;sys_id&gt;ab23ba0dc38d31104773216dc0013172&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;switch_case&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_ab23ba0dc38d31104773216dc0013172&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 16:56:05&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1088924026</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>14ad1475c3c1f1104773216dc0013142</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a51ac5ef30000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>switch_case</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>eb23ba0dc48d311027693a2fcb8f5e73</update_guid>
+<update_guid_history>eb23ba0dc48d311027693a2fcb8f5e73:1088924026</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_3377bec9c38d31104773216dc001310a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My eight jelly page - foreach test with an array / object&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;g:evaluate&gt;
+		var colors = ["pink", "green", "violet", "indigo", "blue", "yellow", "orange", "white", "red"];
+	&lt;/g:evaluate&gt;
+
+	&lt;!-- &lt;g:evaluate var="jvar_colors" object="true" expression="['pink', 'green'];"/&gt; --&gt;
+
+	&lt;j:forEach var="jvar_colors" items="${colors}"&gt;
+		&lt;p&gt;Color: $[SP] &lt;span style="color:${jvar_colors}"&gt;${jvar_colors}&lt;/span&gt;&lt;/p&gt;
+	&lt;/j:forEach&gt;
+
+	&lt;j:forEach var="jvar_index" begin="0" end="20" step="2"&gt;
+		${jvar_index}
+	&lt;/j:forEach&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;foreach_test&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 17:14:57&lt;/sys_created_on&gt;&lt;sys_id&gt;3377bec9c38d31104773216dc001310a&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;foreach_test&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_3377bec9c38d31104773216dc001310a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-03 13:47:16&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1257494011</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>18ad1475c3c1f1104773216dc0013141</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a5b4c37010000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>foreach_test</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>412b50b1c6c1f1100d5cc395bf3ae97e</update_guid>
+<update_guid_history>412b50b1c6c1f1100d5cc395bf3ae97e:-1257494011,e91abe411ecd3110e96822e60f42f931:-177844475,080af2c127cd311045b215d7cd83ecb0:1695870909,3fb976c197cd31100365e85a99b1fd53:-1759174787,4ca9b24162cd3110142c39b4cf4bc2eb:686841872,0999b2c122cd3110867bfbc9e6e12b44:-1931008391,54f8b24100cd3110bd88b73851fceb17:735668101,66d87e4141cd3110773f618bc4b1dea7:-2132151419,5f387e41bdcd311043c8a25453c3849f:1176935519,a328ba09b98d311074c1bbde4f6fec0e:1012577213,7218b241eecd311078373f22ba096ae4:-1349629861,7377bec9828d3110731cad25656b830b:786254845</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_4b785ac1c34d31104773216dc0013156</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>jello_world</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>aakash.garg</sys_created_by><sys_created_on>2023-09-01 14:59:27</sys_created_on><sys_id>4b785ac1c34d31104773216dc0013156</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jello_world</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_4b785ac1c34d31104773216dc0013156</sys_update_name><sys_updated_by>aakash.garg</sys_updated_by><sys_updated_on>2023-09-01 14:59:27</sys_updated_on><type display_value="ui_page">ui_page</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2397329</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:08</sys_created_on>
+<sys_id>1cad1475c3c1f1104773216dc001313f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a514199040000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:08</sys_updated_on>
+<table>jello_world</table>
+<target_name>jello_world</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>4b785ac1204d31101d1b3b73859bb758</update_guid>
+<update_guid_history>4b785ac1204d31101d1b3b73859bb758:2397329</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_0be3224dc34d31104773216dc00131cd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My fifth jelly page - with passing jelly variable to javascript&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;j:set var="jvar_count" value="10"&gt;
+	&lt;/j:set&gt;
+
+	&lt;g:evaluate jelly="true"&gt;
+		var index = jelly.jvar_count;
+		index;
+	&lt;/g:evaluate&gt;
+
+	&lt;p&gt;$[index]&lt;/p&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;jelly_to_javascript&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 15:49:26&lt;/sys_created_on&gt;&lt;sys_id&gt;0be3224dc34d31104773216dc00131cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;jelly_to_javascript&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_0be3224dc34d31104773216dc00131cd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-02 15:00:07&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1766344529</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>1cad1475c3c1f1104773216dc0013140</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a56688de10000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>jelly_to_javascript</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>9632275dcb01b110face64d987b32173</update_guid>
+<update_guid_history>9632275dcb01b110face64d987b32173:1766344529,2754ea8d384d31107025037d2de97d16:-683577757,a444a24db34d311092bfba71c18116bb:-696199517,4be3224de84d31102296ed9587ae64ce:-1942118966</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_6e4b3681c3cd31104773216dc0013103</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My ninth jelly page - with getting value from url&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;!-- &lt;j:set var="jvar_get_uri" value="${RP.getParameterValue('sys_id')}"&gt;
+		I got ${jvar_get_uri};
+	&lt;/j:set&gt; --&gt;
+	&lt;g:evaluate var="sys_id"&gt;
+	var sys_id = RP.getParameterValue("sys_id");
+	sys_id;
+&lt;/g:evaluate&gt;
+	I got ${sys_id}.
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;getting_from_uri&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 17:31:32&lt;/sys_created_on&gt;&lt;sys_id&gt;6e4b3681c3cd31104773216dc0013103&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;getting_from_uri&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_6e4b3681c3cd31104773216dc0013103&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 17:37:28&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-605941442</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>50ad1475c3c1f1104773216dc0013142</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a51d242fd0000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>getting_from_uri</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>35ac72851bcd3110a151a0c81ddea6ef</update_guid>
+<update_guid_history>35ac72851bcd3110a151a0c81ddea6ef:-605941442,569c3e451fcd3110b75cedd027915c68:-1735946930,974c3e4522cd311037e35f6b3efb9063:1598210157,ca3c3645a9cd3110e45f56bf61c32c35:-37614185,6d9bf2c1c0cd3110588b5c3430457d75:218694422,ae4b368193cd3110aaa3b942d6260504:254894016</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_2c4b4305c30171104773216dc00131b5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function setUserFilter(){
+	var asg = gel('assignment_group').value;
+	var userLookup = gel('lookup.assigned_to');
+
+	var users = [];
+	var gr = new GlideRecord('sys_user_grmember');
+	gr.addQuery('group', asg);
+	gr.query();
+	while(gr.next()){
+		users.push(gr.user.toString());
+	}
+
+	userLookup.setAttribute('onclick', "mousePositionSave(event); reflistOpen('assigned_to', 'not', 'sys_user', '', 'false', 'QUERY:active=true', 'sys_idIN" + users + "', '')");
+}]]&gt;&lt;/client_script&gt;&lt;description&gt;My eleventh jelly page - with form&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;g:ui_form&gt;
+		Requestor: &lt;g:ui_reference id="requestor" name="requestor" table="sys_user" query="active=true" /&gt;&lt;br/&gt;
+		&lt;g:evaluate&gt;
+			var items = ["--None--", "Software", "Hardware", "Database"];
+		&lt;/g:evaluate&gt;
+		Category: 
+		&lt;select&gt;
+			&lt;j:forEach var="jvar_item" items="${items}"&gt;
+			&lt;option value="${jvar_item.toLowerCase()}"&gt;${jvar_item}&lt;/option&gt;
+			&lt;/j:forEach&gt;
+		&lt;/select&gt;&lt;br/&gt;
+		Assignment Group: &lt;g:ui_reference id="assignment_group" name="assignment_group" table="sys_user_group" query="active=true" completer="AJAXTableCompleter" onchange="setUserFilter()"/&gt;&lt;br/&gt;
+		Assigned To: &lt;g:ui_reference id="assigned_to" name="assigned_to" table="sys_user" query="active=true" completer="AJAXTableCompleter"/&gt;&lt;br/&gt;
+		Short Description: &lt;input type="text" id="short_description" name="short_description" /&gt;&lt;br/&gt;
+		&lt;!-- &lt;textarea rows="10" cols="100"&gt;&lt;/textarea&gt;&lt;br/&gt; --&gt;
+		&lt;div class="buttons"&gt;
+		&lt;button type="submit"&gt;Submit&lt;/button&gt;
+		&lt;button type="reset"&gt;Reset&lt;/button&gt;
+		&lt;/div&gt;
+	&lt;/g:ui_form&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;jelly_ui_form&lt;/name&gt;&lt;processing_script&gt;&lt;![CDATA[var gr = new GlideRecord("incident");
+gr.initialize();
+gr.setValue('caller_id', requestor);
+gr.setValue('category', category);
+gr.setValue('assignment_group', assignment_group);
+gr.setValue('assigned_to', assigned_to);
+gr.setValue('short_description', short_description);
+gr.insert();
+gs.addInfoMessage("The incident with" + gr.number.toString() + "has been created successfully.");]]&gt;&lt;/processing_script&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 18:41:18&lt;/sys_created_on&gt;&lt;sys_id&gt;2c4b4305c30171104773216dc00131b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;jelly_ui_form&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_2c4b4305c30171104773216dc00131b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-02 15:39:25&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1173573232</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>54ad1475c3c1f1104773216dc0013141</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a568c8b8c0000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>jelly_ui_form</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>1a3b2b555941b110f0593cb72ce73e9b</update_guid>
+<update_guid_history>1a3b2b555941b110f0593cb72ce73e9b:1173573232,3acaa355ca41b1109166c5be9d937b98:1578816080,bc5a23911f41b11008a63a6aea16a996:1155256946,d117ef113741b110f158b17927772d59:1882567309,2b06ef119741b11059be156f8869e155:-1581636834,ce65639d9701b110c595b827b06a085b:1270712602,7645a7ddaa01b110f06996ff748d3030:-59403522,f924a3ddfa01b1106f42099d85706861:728709523,ab63af5dc38d711060de7b91b01332da:-1348970674,a4ee8749db017110bd0dcf7c3125aadf:-1468005858,247e8fc5ea017110001aeb246e840a48:-538120017,733ec7093a017110e92a7fd371326bb4:-1456212439,492e8b0911017110116336d0f6da6a63:1932691890,841ec709f201711062f5d371d28fc6ae:-1617985358,6dfdc709c00171108a859c746ee3a661:886431793,49ed47c1810171104b73fd3b541632ef:1827751857,b19d4309a6017110252ece5b8db27fa6:-1311229492,48db4305fb017110fb61758e813c05ba:2120764554,6c4b43057f0171107cd3dcdc4ebffbb6:802487438</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_050fde09c34d31104773216dc0013180</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My second jelly page - with some extra&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;g:evaluate&gt;
+		var words = ["Welcome", "To", "Jello", "World"]
+	&lt;/g:evaluate&gt;
+
+	&lt;j:forEach var="jvar_msg" items="${words}"&gt;
+		&lt;p&gt;${jvar_msg}&lt;/p&gt;
+	&lt;/j:forEach&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;jello_world_2&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 15:28:00&lt;/sys_created_on&gt;&lt;sys_id&gt;050fde09c34d31104773216dc0013180&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;jello_world_2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_050fde09c34d31104773216dc0013180&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-03 13:51:11&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>999585878</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>58ad1475c3c1f1104773216dc0013140</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a5b4fcd8e0000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>jello_world_2</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>5e0c54f51181f1101ee0987f1bc9d480</update_guid>
+<update_guid_history>5e0c54f51181f1101ee0987f1bc9d480:999585878,9a4fd249384d3110343c967e57649f33:-1754050036,fb0f9e49474d3110d814a983654e06f8:-564197754,450fde098c4d3110304af2ba141b3c81:-92694702</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_238947c1c30171104773216dc001311e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="DELETE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My eleventh jelly page - with form&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;jelly_ui_form&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 18:33:51&lt;/sys_created_on&gt;&lt;sys_id&gt;238947c1c30171104773216dc001311e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;jelly_ui_form&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_238947c1c30171104773216dc001311e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 18:33:51&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>396805813</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>90ad1475c3c1f1104773216dc0013141</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a566a43e70000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>jelly_ui_form</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>39a2af1df801b110baf2c3dbfbe10c52</update_guid>
+<update_guid_history>39a2af1df801b110baf2c3dbfbe10c52:396805813,e389430530017110dd220145cced1976:505021865</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_c5920fc9c3cd31104773216dc00131eb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;gs.hasRole('admin')&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;destructive&lt;/form_style&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Jelly World&lt;/name&gt;&lt;onclick&gt;confirmAction();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function confirmAction() {
+	var dialog = new GlideDialogWindow('getting_from_uri_2');
+	dialog.setTitle('Resolve');
+	dialog.setPreference('sysparm_sysid', g_form.getUniqueValue());
+	dialog.setSize(550, 200);
+	dialog.render();
+}
+
+// For Server Side UI Action
+// var url = '/ui_page.do?sys_id=sysIdOfUIPage'; // give sysId of the ui page
+// action.setRedirectURL(url);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 18:04:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c5920fc9c3cd31104773216dc00131eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Jelly World&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_c5920fc9c3cd31104773216dc00131eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 18:29:04&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1738215234</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>94ad1475c3c1f1104773216dc0013140</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a5201805c0000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table>incident</table>
+<target_name>Jelly World</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>a5788f4132017110c7dd57c711f4deea</update_guid>
+<update_guid_history>a5788f4132017110c7dd57c711f4deea:1738215234,31670f41fc017110271dc39fb47356e3:-781296952,ed474b4112017110003996e7148b9c3c:-1123125759,db2747012e017110ef11be7ee396b5df:1589373396,b817c701f8017110ae0a5fe64b82ff22:-715693362,f0560b013301711063046763c9f57b48:-215929961,1326c301c7017110b714e07bd6e38e56:-1510854624,dd164bcd72cd3110ab705db558a17f2a:1373133613,0bc5cbcdfecd311018dbbab44d5978cd:1573194404,b0a54b8deecd31105e035f0adb2914c1:867826563,e9b40b8d6dcd31104689b42ebccf156a:556436635,5494438d6ecd311034dc2e2d7a1c975c:-1049764151,ff744f0dc5cd311095fd75c7e808b953:1192972814,4a640b4d9fcd311074bd5da49a395172:-1371735565,e4444f4d67cd31101d64f5b6622d3556:1630222106,31344f0d68cd31105a3644568df0bb9e:2146581263,62e3474df9cd31101a5a67e5a043a284:2137750898,c0e3074d68cd311024ce4d4254248a96:1019997842,4d63830d89cd3110c556b59941b0335b:2013053572,7843cb4588cd3110b33ef9dbbb5c804e:1467564373,5ee2430de9cd3110640409a8e936d0b1:-2089152799</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_f041f2c9c38d31104773216dc00131f3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My sixth jelly page - with choose / when / othewrwise&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;j:set var="jvar_name" value="Aakash"&gt;
+	&lt;/j:set&gt;
+
+	&lt;j:choose&gt;
+		&lt;j:when test="${jvar_name eq 'Richa'}"&gt;
+			Welcome, Richa!
+		&lt;/j:when&gt;
+		&lt;j:when test="${jvar_name eq 'Atul'}"&gt;
+			Welcome, Atul!
+		&lt;/j:when&gt;
+		&lt;j:otherwise&gt;
+			Welcome, ${jvar_name}!
+		&lt;/j:otherwise&gt;
+	&lt;/j:choose&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;choose_when&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 16:47:43&lt;/sys_created_on&gt;&lt;sys_id&gt;f041f2c9c38d31104773216dc00131f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;choose_when&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_f041f2c9c38d31104773216dc00131f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 16:50:27&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>270661915</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>98ad1475c3c1f1104773216dc0013142</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a51aa7b260000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>choose_when</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>3e03b2cdb74d3110bc74c33f6db45e2c</update_guid>
+<update_guid_history>3e03b2cdb74d3110bc74c33f6db45e2c:270661915,51b2ba0d1d8d31100a424b60e20f0403:1827847044,c9e17ec9968d31105ce17ef102a322dd:270661915,3441f2c9ba8d3110ebd4194a2fb895f4:-1745748490</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_5b2816c1c34d31104773216dc0013178</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My first jelly page&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	Jello World
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;jello_world&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 14:59:27&lt;/sys_created_on&gt;&lt;sys_id&gt;5b2816c1c34d31104773216dc0013178&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;jello_world&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_5b2816c1c34d31104773216dc0013178&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 15:27:39&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-756521443</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>9cad1475c3c1f1104773216dc0013141</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a515b683c0000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>jello_world</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>c8fed249624d31103afdd4b4f932b41b</update_guid>
+<update_guid_history>c8fed249624d31103afdd4b4f932b41b:-756521443,3cde56c1094d311021abcb257c7560c5:-564197754,264ede09124d31102d3a50e5ad49477c:-756521443,3bac5ec1844d311084d4b98d7826ade0:1913712471,0f5c52c5564d31109cb08c32d3dd013b:-972987147,f83c5ac1794d311004d05c013e231dc2:-1396226603,3c2c1245a24d3110791459ec28056ae8:1335643638,4c1a5245bc4d3110f05537b7708d9ceb:1407311245,63b85ec11d4d31103cc9011f7ce1dada:-756521443,0f785ac1774d311023d1e03c43a41d5d:1858133312</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_03785ac1c34d31104773216dc001315a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>aakash.garg</sys_created_by><sys_created_on>2023-09-01 14:59:28</sys_created_on><sys_id>03785ac1c34d31104773216dc001315a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jello_world.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="jello_world">4b785ac1c34d31104773216dc0013156</sys_security_acl><sys_update_name>sys_security_acl_role_03785ac1c34d31104773216dc001315a</sys_update_name><sys_updated_by>aakash.garg</sys_updated_by><sys_updated_on>2023-09-01 14:59:28</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1954719943</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>d0ad1475c3c1f1104773216dc0013140</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a514199350000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table>jello_world</table>
+<target_name>jello_world.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>43785ac1f04d311070ee1fd6e4518b5c</update_guid>
+<update_guid_history>43785ac1f04d311070ee1fd6e4518b5c:-1954719943</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_ebcf9e49c34d31104773216dc001318d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My third jelly page - with some jexl expressions&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;j:set var="jvar_age" value="18"&gt;
+	&lt;/j:set&gt;
+
+	&lt;j:if test="${jvar_age lt 18}"&gt;
+		Sorry, You are not eligible for driving licence. As we got your age is ${jvar_age}.
+	&lt;/j:if&gt;
+	
+	&lt;j:if test="${jvar_age ge 18}"&gt;
+		Hey, You are eligible for driving licence. As we got your age is ${jvar_age}.
+	&lt;/j:if&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;jexl_expressions&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 15:31:27&lt;/sys_created_on&gt;&lt;sys_id&gt;ebcf9e49c34d31104773216dc001318d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;jexl_expressions&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_ebcf9e49c34d31104773216dc001318d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 15:32:19&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1732592934</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>d4ad1475c3c1f1104773216dc0013142</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a515faf220000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>jexl_expressions</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>ec00a2892f4d311043c8c460e46e7cae</update_guid>
+<update_guid_history>ec00a2892f4d311043c8c460e46e7cae:-1732592934,2fcf9e498a4d311074a230451888408e:-1642060350</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_34664b01c30171104773216dc00131ef</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My tenth jelly page - getting uri value using client UI Aciton&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;j:set var="jvar_sys_id" value="${sysparm_sysid}"&gt;
+	&lt;/j:set&gt;
+	&lt;!-- &lt;g:evaluate var="jvar_sysid"&gt;
+		var sysid = RP.getParameterValue('sys_id');
+		sysid;
+	&lt;/g:evaluate&gt; --&gt;
+	${jvar_sys_id}
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;getting_from_uri_2&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 18:21:56&lt;/sys_created_on&gt;&lt;sys_id&gt;34664b01c30171104773216dc00131ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;getting_from_uri_2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_34664b01c30171104773216dc00131ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-03 12:50:58&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1828880238</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>d8ad1475c3c1f1104773216dc0013141</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a5b18ae7f0000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>getting_from_uri_2</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>ec4e44f54581f110de9f5a31f22f79be</update_guid>
+<update_guid_history>ec4e44f54581f110de9f5a31f22f79be:-1828880238,a83e40396881f110bd619b3b6e55ad09:1956053789,661e40396c81f1102b34312f7b9af952:-1828880238,dc6947c1dd017110ed8d585ebbb57bf9:1956053789,48c80f81f00171106c9b9c4a58bd2bba:282069267,0988c3810b017110765619b979038bdc:-1083241951,1c588f417a01711031f7fad284a77191:2075727576,0f38c741ba017110a0743fe867673fd2:-1083241951,b7080b814d01711032ccf495550ef04d:1326330459,6fc78f414901711095f0bef5501fb8e1:-1083241951,05d60b01c5017110f6ce9533de04a43e:337756539</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_1030a289c34d31104773216dc00131b2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;My fourth jelly page - with gliderecord example&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;g2:evaluate&gt;
+		var gr = new GlideRecord("problem");
+		gr.addQuery('active', 'true');
+		gr.query();
+		gr;
+	&lt;/g2:evaluate&gt;
+
+	&lt;table border="1"&gt;
+		&lt;tr&gt;&lt;td colspan="2"&gt;Active Problems&lt;/td&gt;&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Number&lt;/th&gt;
+			&lt;th&gt;Short Description&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;j2:while test="$[gr.next()]"&gt;
+		&lt;tr&gt;
+		&lt;td&gt;$[gr.number]&lt;/td&gt;
+		&lt;td&gt;$[gr.short_description]&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/j2:while&gt;
+	&lt;/table&gt;
+
+	&lt;style&gt;
+		td, th{
+			padding: 10px;
+		}
+	&lt;/style&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;gliderecord_demo&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aakash.garg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 15:33:07&lt;/sys_created_on&gt;&lt;sys_id&gt;1030a289c34d31104773216dc00131b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;gliderecord_demo&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_1030a289c34d31104773216dc00131b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aakash.garg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 15:42:39&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-899945060</payload_hash>
+<remote_update_set display_value="Jelly Scripting">18ad1475c3c1f1104773216dc001313f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>aakash.garg</sys_created_by>
+<sys_created_on>2023-09-03 13:58:09</sys_created_on>
+<sys_id>dcad1475c3c1f1104773216dc0013140</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a5169238a0000001</sys_recorded_at>
+<sys_updated_by>aakash.garg</sys_updated_by>
+<sys_updated_on>2023-09-03 13:58:09</sys_updated_on>
+<table/>
+<target_name>gliderecord_demo</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>37526ec9684d311027ab2629624834c2</update_guid>
+<update_guid_history>37526ec9684d311027ab2629624834c2:-899945060,0f42eac93c4d31106d4767ddc0141af4:1820638909,7c32224da64d31101af1247f14dacfb8:-899945060,2c31220d944d3110e8b192d1888dc429:1664016108,dc21aa894f4d31101dfa247400b5f5d0:-1600428962,17f06ac9cc4d3110f35dfd747e486314:-845771014,21e06e890a4d31100e78a02a417593f6:-793728326,ebb0ee49604d311078d464bd204bd400:83490095,f7a0aa892d4d3110a2c956e1c27c63cc:868498564,5030a289674d3110f6954c601bdd55b3:1821024818</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

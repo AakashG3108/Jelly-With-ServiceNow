@@ -1,0 +1,30 @@
+What is Jelly?
+
+Jelly is nothing but the Java Elements originates from the Apache Foundation. Used to render webpages.
+
+ServiceNow uses jelly to process XML documents containing static HTML and special jelly tags.
+The output is HTML.
+
+Why learn Jelly?
+It is used in UI pages and UI Macros.
+
+Jelly tags define dynamic content that is processed to produce HTML.
+
+Formatters makes it easy to place UI Macros in Forms.
+
+Two kinds of tags in Jelly:=
+
+1. Core tags - jelly:core (j)
+<j:if> | <j:choose> | <j:while> | <j:set>
+
+2. Servicenow custom tags - glide (g)
+<g:call> | <g:macro_invoke> | <g:breakpoint> | <g:evaluate>
+
+* choose / when / otherwise Example:-
+
+Query Paramters:
+The RP object has several methods providing information about the page context.
+var query = RP.getParameterValue() or use ${sysparm_foo}
+
+
+
